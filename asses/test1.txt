@@ -1,0 +1,80 @@
+1. class NumberHolder{
+ public int anInt;
+public float afloat;
+public static void main(String[] args)
+{
+NumberHolder var=new NumberHolder();
+var.anInt=1;
+var.afloat=1f;
+System.out.println(var.anInt + ""+ var.float);}
+
+
+
+
+4.class Student{  
+    String name;
+    int roll_no;
+    public static void main(String[] args)
+{
+    Student student=new Student();
+    student.name="John";
+    student.roll_no=2;
+    System.out.println(student.name+"" student.roll_no);
+  
+ }
+
+
+
+2. class Student{
+int rollno;
+String phno;
+String address;
+public static void main(String[] args){
+Student Sam=new Student();
+Student John=new Student();
+Sam.rollno=1;
+Sam.phone="123";
+Sam.address="delhi";
+John.roll=2;
+John.phone="444";
+John.address="goa";
+System.out.println(Sam.roll+Sam.phone+Sam.address);
+System.out.println(John.roll+John.phone+John.address);
+}
+}
+
+
+
+
+3. class Employee{
+String name;
+int year_of_joining;
+String address;
+Employee(String_name,int_year_of_joining,String_address)
+{
+this.name=_name;
+this.year=year_of_joining;
+this.address=_address;
+}
+public static void main(String[] args)
+{
+Employee e1=new Employee("Robert",1994,64C-WallsStreet");
+Employee e2=new Employee("Sam",2000,68C-WallsStreet");
+Employee e3=new Employee("John",1999,64C-WallsStreet");
+System.out.println(e1.name + e1.year_of_joining + e1.address);
+System.out.println(e2.name + e2.year_of_joining + e2.address);
+System.out.println(e3.name + e3.year_of_joining + e3.address);
+}}
+
+
+5.  class Book{
+String title;
+String author;
+double price;
+public Author(String firstname,String lastname)
+{
+firstname="Aman";
+lastname="Sharma";
+
+public static void main(String[] args)
+{ 
