@@ -1,0 +1,88 @@
+6.public class ArrayAvg{
+public static void main(String[] args){
+   int[] arr= new int[4];
+   arr[0]=20; arr[1]=20;
+   arr[2]=30; arr[3]=50;
+   for(int i=0;i<arr.length;i++){
+       sum=sum+arr[i];}
+     int avg= sum/(arr.length);
+    System.out.println("avg of array is:" + avg);
+}
+}
+
+3.class MultiplyTable{
+public static void main(String args[]){
+int n=5;
+for(int i=0;i<=5;++i){
+System.out.println(n+"*"+i+"="+n*i);
+}
+}
+}
+
+7. class MaxElementArray {
+public static void main(String args[]){
+int[] arr=new int[n]; int n; int max=arr[0];
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the no. of arrays");
+n=sc.nextInt();
+for(int i=1;i<n;i++){
+if(max<arr[i]){
+max=arr[i];}
+System.out.println("maxelementis:"+max);
+}}}
+
+8. class Week{
+public static void main(String args[]){
+String[] days={"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+for(String day: days)
+{
+System.out.println("days are:"+day);}
+}
+}
+
+1. public class Pattern{
+public static void main(String args[]){
+for(int i=1;i<=5;i++)
+{
+for(int j=1;j<=i;j++)
+System.out.println("*");
+System.out.println();
+}
+for(int i=4;i>=1;i--)
+{
+for(int j=1;j<=i;j++)
+System.out.println("*");
+System.out.println();
+}
+}}
+
+
+5.public class Banking{
+int rateofinterestsbi(int a,int b){
+ return a+b;
+}
+int rateofinteresticici(int a,int b,int c){
+ return a+b+c;
+}
+int rateofinteresthdfc(int a,int b){
+ return a-b;
+}
+float rateofinterestxyz(float x,float y){
+ return (x/y);
+}
+int rateofinterestabc(int a){
+ return a*a;
+}
+
+public static void main(String[] args){
+  MethodOverloading=new MethodOverloading();
+int x1=m.rateofinterestsbi(2,3);
+int x2=m.rateofinteresticici(2,3,4);
+float x4=m.rateofinterestxyz(2.3f,6.1f);
+int x3=m.rateofinteresthdfc(1,1);
+int x5=m.rateofinterestabc(1,1);
+System.out.println(x1+x2+x3);
+
+}
+}
+  
