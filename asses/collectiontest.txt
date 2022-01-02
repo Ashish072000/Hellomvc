@@ -1,0 +1,180 @@
+1. import java.util.ArrayList;
+import java.util.List;
+public class ArrayListDemo{
+public static void main(String[] args){
+ArrayList<String> li=new ArrayList<String>();
+//add the colors
+li.add("blue");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+//second ques
+li.add(3,"pink");
+System.out.println("after update" + li);
+}
+}
+
+3. import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+public class ArrayListDemo{
+public static void main(String[] args){
+
+ArrayList<String> li=new ArrayList<String>();
+//add the colors
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+li.remove(3);
+System.out.println(li);
+Collections.sort(li);
+}
+}
+
+4. import java.util.LinkedList;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+}
+}
+
+5. import java.util.LinkedList;
+import java.util.Iterator;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+Iterator m=li.listIterator(1);
+while(m.hasNext()){
+System.out.println(m.next());
+}
+}}
+
+6.import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+li.addLast("orange");
+Iterator it=li.descendingIterator();
+while(it.hasNext()){
+System.out.println(it.next());
+}
+}
+
+
+7.import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+System.out.println(li.get(0));
+System.out.println(li.getLast());
+}}
+
+
+9. import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+System.out.println(li.getLast());
+}
+}
+
+10. import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+if(li.contains("pink")){
+System.out.println("pink exist");
+}
+else{
+System.out.println("not exist");
+}
+if(li.contains("brown")){
+System.out.println("brown exist");
+}
+else{
+System.out.println("not exist");
+}
+}
+}
+
+8. import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+for(int i=0;i<li.size();i++){
+System.out.println("li.get(i));
+}
+}
+}
+
+
+11.import java.util.LinkedList;
+import java.util.*;
+public class LinkedListDemo{
+public static void main(String[] args){
+
+LinkedList<String> li=new LinkedList<String>();
+li.add("pink");
+li.add("green");
+li.add("white");
+li.add("black");
+System.out.println(li);
+System.out.println("set data:"+li.set(2,"orange");
+System.out.println(li);
+}
+}
+
+
+
+
+
+
+
