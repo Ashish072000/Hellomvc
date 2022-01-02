@@ -1,0 +1,189 @@
+1. abstact class Pen{
+   abstact void write();
+   abstract void refill();
+}
+
+2.class fountainpen extends Pen{
+ void write(){
+System.out.println("write to code");
+}
+void ChangeNib(){
+System.out.println("change the nib");
+}
+}
+class Main{
+public static void main(String[] args){
+fountainpen fp=new fountainpen();
+fp.changeNib();
+fp.write();
+}}
+
+
+3.class Monkey{
+void jump(){
+System.out.println("jump");
+}
+void bite(){
+System.out.println("bite");
+}
+}
+interface basicanimal{
+void eat();
+void sleep();
+class Human extends Monkey implements basicanimal{
+void eat(){
+System.out.println("monkey is eating");
+}
+void sleep(){
+System.out.println("monkey is sleeping");
+}
+class Main{
+public static void main(String[] args){
+Human h=new Human();
+h.eat();
+h.sleep();
+}
+}
+
+
+5.class Monkey{
+void jump(){
+System.out.println("jump");
+}
+void bite(){
+System.out.println("bite");
+}
+}
+interface basicanimal{
+void eat();
+void sleep();
+class Human extends Monkey implements basicanimal{
+void eat(){
+System.out.println("monkey is eating");
+}
+void sleep(){
+System.out.println("monkey is sleeping");
+}
+class Main{
+public static void main(String[] args){
+Monkey m=new Monkey();
+m.jump();
+m.bite();
+basicanimal ba=new basicanimal();
+ba.sleep();
+ba.eat();
+
+}
+}
+
+4.class telephone{
+abstract void lift();
+abstract void disconnected();
+}
+class smarttelephone extends telephone{
+void lift(){
+System.out.println("lift the telephone);
+}
+void disconnected(){
+System.out.println("disconnect the telephopne");
+}
+class Main{
+public static void main(String[] args){
+telephone t=new telephone;
+t.lift();
+t.disconnected();
+}
+}
+
+
+4. corrected one
+interface telephone{
+abstract void lift();
+abstract void disconnected();
+}
+class Main implements telephone {
+public static void main(String[] args){
+Main t = new Main();
+t.lift();
+t.disconnected();
+}
+
+@Override
+public void lift(){
+System.out.println("lift telephone");
+}
+public void disconnected(){
+System.out.println("disconnect the telephopne");
+}
+}
+
+7.
+interface TVremote{
+void display();
+interface smartTVremote{
+void dis();
+class InterfaceTest implements TVremote, smartTVremote{
+public static void main(String[] args){
+InterfaceTest t=new InsterfaceTest();
+t.display();
+t.dis();
+}
+public void display(){
+System.out.println("here is TV remote");
+}
+public void dis(){
+ System.out.println("here is smart TVremote");
+}
+}
+6.interface TVremote{
+void display(){
+System.out.println("Here is tv remote);
+}
+interface smartTVremote extends TVremote{
+void dis(){
+System.out.println("xyz");
+}
+class MainInterface{
+public static void main(){
+smartTVremote s=new smartTVremote();
+s.display();
+s.dis();
+}
+}
+
+8.interface in1{
+void display(int p);
+}
+class TestClass implements in1{
+public static void main(String[] args){
+int p;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the no. of prime no.");
+p=sc.nextInt();
+for(int i=2;i<=p;i++){
+if(p%i==0)
+System.out.println("not prime"); break;
+else
+System.out.println("prime no");
+}
+}
+}
+TestClass tc=new TestClass();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
