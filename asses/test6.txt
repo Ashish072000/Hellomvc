@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+import java.util.List;
+public class ArrayListDemo{
+public static void main(String[] args){
+List<String> list = new ArrayList<String>();
+list.add("ram");
+list.add("sam");
+list.add("rahul");
+list.add("tina");
+list.add("meena");
+ListIterator<String> listIterator=list.listIterator();
+System.out.println("arraylist are:"+list);
+//last index fetching
+String l=list.get(list.size()-1);
+System.out.println(l);
+//indexOf
+System.out.println(list.indexOf("tina"));
+}}
+
+
+import java.util.ArrayList;
+import java.util.List;
+public class ArrayListDemo{
+public static void main(String[] args){
+ArrayList<String> ab=new ArrayList<String>();
+ab.add("a");
+ab.add("b");
+ab.add("c");
+ab.add("d");
+ab.add("e");
+System.out.println(ab);
+ArrayList<String>xy=new ArrayList<String>();
+xy.add("a");
+xy.add("p");
+xy.add("o");
+xy.add("c");
+xy.add("z");
+System.out.println(xy);
+//retaining list
+System.out.println(xy.retainAll(ab));
+System.out.println(ab);
+System.out.println(xy);
+}}
+
+//sort list
+import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+public class ArrayListDemo{
+public static void main(String[] args){
+ArrayList<String> l = new ArrayList<String>();
+l.add("ram");
+l.add("sam");
+l.add("rahul");
+l.add("tina");
+l.add("meena");
+Collections.sort(l);
+System.out.println("arraylist are:"+l);
+}}
+
+
+
+
+
+
+
